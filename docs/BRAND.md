@@ -17,3 +17,12 @@ RAZIEL is the new name selected by Sebastián for RadioWorkbench, alongside PAIM
 The monochrome mark combines an antenna, reception arcs and a wave. Image generation was used for the concept, then refined using the user's METATRON icon as a style reference. The generator creates macOS icon sizes, ICNS and documentation graphics without changing the source PNG. Functional app icons remain native SF Symbols. The cover is branding, not an RF reception screenshot.
 
 Four persistent light/dark palettes change control accents: Graphite, Petroleum, Forest and Amber. Semantic surfaces and warning colors remain native; waterfall palettes are independent. The app icon stays black and white.
+
+
+## Portada y mensaje de familia · noviembre de 2026
+
+La cabecera pública actual del README es `docs/assets/brand/family-cover.png`. Adopta el sistema común de [NABERIUS, RAZIEL, METATRON, PAIMON y VAPULA](FAMILY.md): azul petróleo, marfil, acento azul apagado, mensaje a la izquierda y sello propio a la derecha.
+
+**Simplicidad con impacto. Concéntrate en lo que vale la pena.** El eslogan específico de RAZIEL es **Escucha. Decodifica. Explora.**
+
+Es una ilustración promocional generada con imagegen sobre los recursos de marca existentes. El [prompt y la procedencia](assets/brand/family-cover-prompt.md) documentan su elaboración. Los iconos de aplicación, la geometría vectorial original, las capturas reales y los recursos anteriores se conservan. Los generadores históricos siguen produciendo sus archivos originales; la nueva portada se mantiene como recurso independiente.

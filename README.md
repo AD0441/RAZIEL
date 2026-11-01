@@ -1,19 +1,39 @@
 <div align="center">
-  <img src="docs/assets/brand/app-icon.png" width="112" alt="Icono de RAZIEL / RAZIEL icon">
+  <img src="docs/assets/brand/app-icon.png" width="112" alt="Icono de RAZIEL">
   <h1>RAZIEL</h1>
-  <p><strong>Escucha. Decodifica. Explora. · Listen. Decode. Explore.</strong></p>
-  <p>Radio y señales en macOS · Radio and signals on macOS</p>
-  <p><img alt="macOS 14+" src="https://img.shields.io/badge/macOS-14%2B-333333?logo=apple&amp;logoColor=white"> <img alt="Apple Silicon" src="https://img.shields.io/badge/Apple_Silicon-arm64-444444"> <img alt="Español / English" src="https://img.shields.io/badge/idiomas-ES%20%2F%20EN-555555"></p>
-  <p><a href="https://github.com/AD0441/RAZIEL/releases/tag/v0.17.0">Descargar 0.17.0 / Download 0.17.0</a> · <a href="#es">Español</a> · <a href="#en">English</a> · <a href="https://github.com/AD0441/RAZIEL/issues">Ideas y errores / Feedback</a> · <a href="https://ko-fi.com/C0C51WQ1T0">Apoyar / Support</a></p>
+  <p><strong>Escucha. Decodifica. Explora.</strong></p>
+  <p>Recibe señales, interpreta audio y explora la radio desde tu Mac.</p>
+  <p>
+    <img alt="macOS 14 o posterior" src="https://img.shields.io/badge/macOS-14%2B-183B4A?style=flat-square&amp;logo=apple&amp;logoColor=white">
+    <img alt="Apple Silicon" src="https://img.shields.io/badge/Apple_Silicon-arm64-365D72?style=flat-square">
+    <img alt="Versión 0.17.0" src="https://img.shields.io/badge/versi%C3%B3n-0.17.0-58616B?style=flat-square">
+  </p>
+  <p><a href="https://github.com/AD0441/RAZIEL/releases/tag/v0.17.0">Descargar 0.17.0</a> · <a href="#qué-nos-diferencia">Ventajas</a> · <a href="#funciones-y-límites">En uso</a> · <a href="#descargar">Empezar</a> · <a href="docs/VALIDACION.md">Alcance</a> · <a href="#es">Español</a> · <a href="#en">English</a> · <a href="https://ko-fi.com/C0C51WQ1T0">Apoyar</a></p>
 </div>
 
-![RAZIEL · identidad monocroma / monochrome identity](docs/assets/brand/cover.png)
+![RAZIEL · Simplicidad con impacto. Escucha. Decodifica. Explora. Concéntrate en lo que vale la pena.](docs/assets/brand/family-cover.png)
 
 **Creado por Sebastián Pastén F.** RAZIEL es el nuevo nombre de RadioWorkbench. El repositorio ahora es **AD0441/RAZIEL**; la dirección anterior redirige al proyecto actual. El identificador interno se conserva para mantener datos y perfiles. / RAZIEL is the new name of RadioWorkbench. The repository is now **AD0441/RAZIEL**; the former address redirects to the current project. The internal identifier remains unchanged to preserve data and profiles.
 
 [Español](#es) · [English](#en) · [Historial / Changelog](https://github.com/AD0441/RAZIEL/blob/main/docs/HISTORIAL.md) · [Validación / Validation](https://github.com/AD0441/RAZIEL/blob/main/docs/VALIDACION.md)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C51WQ1T0)
+
+## Simplicidad con impacto
+
+**Concéntrate en lo que vale la pena.** Creamos herramientas nativas para Mac que reúnen lo necesario en un flujo claro: menos pasos repetidos, decisiones visibles y control sobre tu trabajo. En RAZIEL, eso significa reunir recepción, decodificación y contexto para dedicar la atención a la señal.
+
+Compartimos una filosofía y una [identidad visual](docs/FAMILY.md); cada aplicación conserva su propósito, su sello y sus límites.
+
+## Qué nos diferencia
+
+| Lo que necesitas | Nuestra ventaja práctica | Alcance que debes conocer |
+| --- | --- | --- |
+| Pasar del audio a su interpretación | Decodificadores, espectro, waterfall y exportación en un laboratorio nativo para Apple Silicon. | El audio de un receptor no equivale a muestras I/Q; cada modo tiene condiciones propias. |
+| Dar contexto a la escucha | Guía de emisoras, propagación, terreno y pases de satélites en el mismo espacio. | Los modelos y listados no prueban recepción ni actividad; las consultas en línea contactan a sus proveedores. |
+| Conservar y revisar tu exploración | Biblioteca local, perfiles, registros de escucha y controles de interfaz en español e inglés. | La app es experimental y algunos motores requieren descargas y versiones de macOS adicionales. |
+
+RAZIEL toma **MultiMode Cocoa** como referencia funcional documentada y reúne decodificación, biblioteca y planificación en una aplicación arm64. [La revisión del binario 6.9.1b1](docs/REVISION-MULTIMODE.md) identificó solo x86_64 en esa copia concreta; no describe todas las versiones del producto ni demuestra una ventaja de rendimiento. No se incluyen su código ni sus recursos comerciales. Para demodular con SDR++, consulta [la ruta de audio](#audio-desde-sdr).
 
 <a id="es"></a>
 ## Español
@@ -138,6 +158,18 @@ RAZIEL is a native **macOS and Apple Silicon** radio receiver and laboratory. It
 
 It uses SwiftUI, CoreAudio/AVFoundation, Accelerate and MapKit. MultiMode Cocoa served as a documented functional reference: its executable, code, NIBs and commercial resources are not included. Personal test photographs and recordings remain outside GitHub.
 
+### Simplicity with impact
+
+**Focus on what matters.** RAZIEL brings audio decoding, a local library and radio planning into one native Apple Silicon workspace. Keep the signal in view, save the result and consult its context without splitting the workflow across separate tools.
+
+| Practical benefit | Scope |
+| --- | --- |
+| Decode audio, inspect spectrum/waterfall and export results together. | Audio input is not I/Q, and each decoder has its own conditions. |
+| Combine station, propagation, terrain and satellite information. | Models do not prove reception; online queries contact their providers. |
+| Keep listening logs, profiles and a local library with Spanish/English controls. | This is experimental software; optional engines have additional requirements. |
+
+MultiMode Cocoa is a documented functional reference. The [reviewed 6.9.1b1 binary](docs/REVISION-MULTIMODE.md) was x86_64 only; this is specific to that artifact and is not a performance comparison. RAZIEL provides an arm64 application without incorporating that product’s commercial code or resources. [Validation and limits](docs/VALIDACION.md).
+
 ### Platform and status
 
 - Experimental application. The bundle requires **macOS 14 or later**, with an **arm64 executable for M1 and later**, tested on an M1 MacBook Pro running macOS 27.2. Every intermediate macOS version has not been physically tested.
@@ -248,7 +280,8 @@ Third-party components retain their own terms. This repository neither relicense
 You can support development on [Ko-fi](https://ko-fi.com/C0C51WQ1T0).
 
 <div align="center">
-  <img src="docs/assets/brand/app-icon.png" width="64" alt="RAZIEL">
+  <p><strong>Simplicidad con impacto.</strong><br>Concéntrate en lo que vale la pena.</p>
+  <p><a href="https://github.com/AD0441/NABERIUS">NABERIUS</a> · <a href="https://github.com/AD0441/RAZIEL">RAZIEL</a> · <a href="https://github.com/AD0441/METATRON">METATRON</a> · <a href="https://github.com/AD0441/PAIMON">PAIMON</a> · <a href="https://github.com/AD0441/VAPULA">VAPULA</a></p>
   <p><strong>Creado por Sebastián Pastén F.</strong></p>
-  <p><a href="https://github.com/AD0441/PAIMON">PAIMON</a> · <a href="https://github.com/AD0441/METATRON">METATRON</a> · <a href="https://ko-fi.com/C0C51WQ1T0">Ko-fi</a></p>
+  <p><a href="https://www.sebastianpasten.com/desarrollos-aplicaciones-para-mac-software-sdr">Más aplicaciones para Mac</a> · <a href="https://ko-fi.com/C0C51WQ1T0">Apoyar en Ko-fi</a></p>
 </div>
