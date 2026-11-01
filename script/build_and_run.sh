@@ -148,7 +148,7 @@ cat >"$APP_BUNDLE/Contents/Info.plist" <<PLIST
 <key>CFBundleVersion</key><string>33</string>
 <key>CFBundlePackageType</key><string>APPL</string>
 <key>LSMinimumSystemVersion</key><string>14.0</string>
-<key>SUFeedURL</key><string>https://raw.githubusercontent.com/AD0441/RadioWorkbench/updates/docs/updates/appcast.xml</string>
+<key>SUFeedURL</key><string>https://raw.githubusercontent.com/AD0441/RAZIEL/updates/docs/updates/appcast.xml</string>
 <key>SUPublicEDKey</key><string>$SPARKLE_PUBLIC_KEY</string>
 <key>SUEnableAutomaticChecks</key><false/>
 <key>SUAutomaticallyUpdate</key><false/>

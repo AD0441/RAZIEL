@@ -2,6 +2,8 @@
 
 Sparkle 2.10.0 consulta por HTTPS la rama `updates`, archivo `docs/updates/appcast.xml`. El canal ofrece **RAZIEL 0.17.0/build 33**, con el ZIP público de la publicación GitHub y firma Ed25519 del archivo, además de la firma del XML. La aplicación contiene únicamente la clave pública de `public-key.txt`.
 
+Repositorio actual: [AD0441/RAZIEL](https://github.com/AD0441/RAZIEL). Tras el cambio de nombre del 31 de octubre de 2026 se comprobaron las direcciones nuevas y antiguas del canal y del ZIP 0.17.0. El XML publicado conserva exactamente sus bytes y firma; las instalaciones anteriores pueden seguir consultándolo. Las próximas compilaciones usan la dirección canónica de RAZIEL.
+
 La comprobación automática es optativa en **Ajustes → General e idioma**. Descargar e instalar requiere una acción del usuario. El paquete sigue siendo ad hoc, sin Developer ID ni notarización; las firmas Ed25519 no cambian ese estado.
 
 La clave Ed25519 privada permanece en `~/.config/radioworkbench/signing/sparkle.key`, permisos 0600, directorio 0700. Conservar una copia segura: perderla impide publicar para estas instalaciones. Nunca copiarla al proyecto, al bundle o a GitHub.
@@ -13,6 +15,8 @@ La validación de 0.17 verifica el paquete, la instalación local y las firmas d
 ---
 
 Sparkle 2.10.0 uses the HTTPS feed on the `updates` branch, `docs/updates/appcast.xml`. It offers **RAZIEL 0.17.0/build 33** using the public GitHub ZIP, an archive Ed25519 signature and a separate signed XML feed. Only the public key is shipped in the application.
+
+Current repository: [AD0441/RAZIEL](https://github.com/AD0441/RAZIEL). After the October 31, 2026 rename, both old and new feed and 0.17.0 ZIP URLs were checked. The published XML retains its exact bytes and signature, so existing installations can continue using it. Future builds use the canonical RAZIEL address.
 
 Automatic checks are opt-in under **Settings → General and language**. Downloading/installing requires user action. The app remains ad hoc signed, without Developer ID or notarization. Archive/feed signatures do not alter that distribution status.
 

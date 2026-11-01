@@ -53,7 +53,7 @@ struct PreferencesView: View {
                 Toggle("Buscar actualizaciones automáticamente", isOn: Binding(get: { updates.automaticallyChecks }, set: { updates.setAutomatic($0) })).disabled(updates.configuration == nil)
                 Button("Buscar actualizaciones…") { updates.check() }.disabled(updates.configuration == nil || updates.checking || receiver.busy)
                 Text(AppLocalization.text(updates.status)).font(.caption).foregroundStyle(.secondary)
-                Link("Publicaciones en GitHub", destination: URL(string: "https://github.com/AD0441/RadioWorkbench/releases")!)
+                Link("Publicaciones en GitHub", destination: URL(string: "https://github.com/AD0441/RAZIEL/releases")!)
             }
         }
     }

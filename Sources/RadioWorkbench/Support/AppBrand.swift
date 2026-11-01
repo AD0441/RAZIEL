@@ -5,7 +5,7 @@ import AppKit
 @MainActor enum AppBrand {
     static let name = "RAZIEL"
     static let donationURL = URL(string: "https://ko-fi.com/C0C51WQ1T0")!
-    static let repositoryURL = URL(string: "https://github.com/AD0441/RadioWorkbench")!
+    static let repositoryURL = URL(string: "https://github.com/AD0441/RAZIEL")!
     static let icon: NSImage? = {
         let url = Bundle.main.url(forResource: "RazielIcon", withExtension: "png", subdirectory: "Brand")
             ?? Bundle.module.url(forResource: "RazielIcon", withExtension: "png")
