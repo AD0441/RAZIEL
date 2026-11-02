@@ -11,7 +11,9 @@
   <p><a href="https://github.com/AD0441/RAZIEL/releases/tag/v0.17.0">Descargar 0.17.0</a> · <a href="#qué-nos-diferencia">Ventajas</a> · <a href="#funciones-y-límites">En uso</a> · <a href="#descargar">Empezar</a> · <a href="docs/VALIDACION.md">Alcance</a> · <a href="#es">Español</a> · <a href="#en">English</a> · <a href="https://ko-fi.com/C0C51WQ1T0">Apoyar</a></p>
 </div>
 
-![RAZIEL · Simplicidad con impacto. Escucha. Decodifica. Explora. Concéntrate en lo que vale la pena.](docs/assets/brand/family-cover.png)
+![RAZIEL: aplicación en su entorno de trabajo, logo sobre el nombre y eslogan. Simplicidad con impacto.](docs/assets/promo/photographic-cover.png)
+
+*Composición promocional generada con IA a partir de recursos reales de la app. [Procedencia y capturas originales](docs/assets/promo/photographic-cover.md).*
 
 **Creado por Sebastián Pastén F.** RAZIEL es el nuevo nombre de RadioWorkbench. El repositorio ahora es **AD0441/RAZIEL**; la dirección anterior redirige al proyecto actual. El identificador interno se conserva para mantener datos y perfiles. / RAZIEL is the new name of RadioWorkbench. The repository is now **AD0441/RAZIEL**; the former address redirects to the current project. The internal identifier remains unchanged to preserve data and profiles.
 
